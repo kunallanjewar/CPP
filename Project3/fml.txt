@@ -1,0 +1,3 @@
+0002	Susan	M	Hyundai	F	12	3.6
+0003	Emily	M	Rambus	F	20	3.75
+0008	Taurus	S	Ford	F	4	2.75

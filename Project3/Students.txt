@@ -1,0 +1,8 @@
+0001   John          T          Intel          M         5          4.00   
+0002   Susan        M         Hyundai          F          12        3.60 
+0003   Emily        M         Rambus           F          20        3.75    
+0004   Michael      J          Sirius          M         16        4.00     
+0005   Tommy     M         Toyota              M         8          3.50  
+0006   Henry        N         Toyota           M         4          2.00  
+0007   Romario    V         Adidas             M         24        3.00 
+0008   Taurus       S          Ford           F          4           2.75   

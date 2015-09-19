@@ -1,0 +1,47 @@
+//StudentMain.cpp
+#include <iostream>
+#include "Student.h"
+using namespace std;
+
+class CStudent
+{
+private:
+	int ID;
+	float gpa;
+
+public:
+	CStudent();
+	{ 
+	}
+	
+}
+void main()
+{
+	cout << "The first student example: \n";
+	CStudent aStudent;
+	cout << "The default student information: \n";
+	aStudent.output();
+	cout << "\n\nGet new student information: \n" << endl;
+	aStudent.input();
+	cout << "\nNew student information: \n";
+	aStudent.output();
+	cout << "\n\nSet new id to 0010";
+	aStudent.setId("0010");
+	cout << "\nThe new id: " << aStudent.getId();
+	cout << "\nThe updated student information: ";
+	aStudent.output();
+	cout << endl << endl;
+
+	cout << "The second student example: \n";
+	CStudent anotherStudent("0011", "John", "Doe", 'K', 'M', 30, 3.50);
+	cout << "The initial student information: \n";
+	anotherStudent.output();
+	cout << "\n\nThe current GPA: " << anotherStudent.getGpa();
+	cout << "\n\nSet new GPA to 3.80";
+	anotherStudent.setGpa(3.80);
+	cout << "\nThe updated student information: \n";
+	anotherStudent.output();
+	cout << endl;
+
+	system("PAUSE");
+}
